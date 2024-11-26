@@ -20,10 +20,7 @@ def sum_range(start, end):
     for i in range(start, end + 1):
         summa += i
     return summa
-    summa = 0
-    for i in range(start, end + 1):
-        summa += i
-    return summa
+
 
 start = input_int("Введите начало диапазона: ")
 end = input_int("Введите конец диапазона: ")
